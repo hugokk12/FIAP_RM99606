@@ -1,0 +1,124 @@
+
+
+
+.titulo_nav {
+
+  color: antiquewhite;
+
+}
+
+a.navbar-brand{
+  font-size: xx-large;
+}
+
+body {
+
+  font-family: 'Catamaran', sans-serif;
+  background-image: url('../img/background_v3.jpg');
+  background-size: 180%;
+  background-position: center
+}
+
+
+.card_container {
+  display: flexbox;
+  justify-content: space-evenly;
+  padding: auto;
+  margin-top: 35%;
+}
+
+.card {
+  margin: 15%;
+}
+
+.container {
+  display: flexbox;
+  padding: auto;
+  margin-top: 5%;
+
+}
+
+.no_margin{
+  margin:auto
+}
+
+img {
+  height: auto; 
+  width: auto; 
+  max-width: 70%; 
+}
+
+img.legenda{
+  max-width: 20%; 
+}
+
+.detalhes{
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.card_gg{
+  margin-top: 5%;
+}
+
+img.gg{
+  max-width: 100%; 
+}
+
+.navbar{
+  display: flexbox;
+  flex-direction: column;
+}
+
+.nav_line{
+  display: flexbox;
+  flex-direction: row;
+}
+
+.nav_items{
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  border-radius: 20px;
+  margin: 1%;
+}
+
+.pos-f-t{
+  width: 80%;
+}
+
+a {
+  color: white;
+  text-decoration:none
+}
+
+.container_cadastro {
+  color: white;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+
+#emailHelp {
+  color: white;
+}
+
+.form-group {
+  margin-top: 3%;
+}
+
+.btn_cadastro {
+  margin-top: 5%;
+}
+
+#tbl_invest {
+  width: 90%;
+  align-items: center;
+  margin: 0px auto;
+  text-align: center;
+}

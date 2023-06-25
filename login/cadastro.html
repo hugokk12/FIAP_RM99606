@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyFinantialLife</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+</head>
+
+<!--  Header Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">MyFinantialLife</a>
+    </div>
+</nav>
+
+    
+
+<!--  Fim do Header Navbar -->
+
+<body>
+    
+    <div class="container ">
+        <!-- Intro -->
+        <h1 class="text-light p-3 my-3 bg-dark display-5 rounded-3 text-center">Cadastre-se e já começe a organizar sua vida financeira!</h1>
+        <!-- Fim Intro -->
+
+        <!-- Cards -->
+        <form action="../sob_construcao.html" oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
+            <div class="container_cadastro rounded-3 bg-dark">
+                <div class="form-group">
+                    <label  for="username">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@examplo.com" required>
+                    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password1">Senha</label>
+                    <input type="password" class="form-control" id="password1" placeholder="Senha_1234" required name=up>
+                </div>
+                <div class="form-group">
+                    <label for="password2">Confirme sua senha</label>
+                    <input type="password" class="form-control" id="password2" placeholder="Repita a senha digitada" required name=up2>
+                </div>
+                <button type="submit" class="btn btn-primary btn_cadastro">Enviar</button>
+            </div>
+        </form>
+        <!-- fim dos Cards -->
+    </div>
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>
